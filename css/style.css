@@ -10,7 +10,7 @@ h1{
 .name{
     color: orange;
 }
-section{
+.section{
     display: flex;
     margin-bottom: 200px;
 }
