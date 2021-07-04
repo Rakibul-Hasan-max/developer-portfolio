@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 
 .cont{
@@ -32,4 +33,15 @@ section{
 .banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.about{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 100px;
 }
