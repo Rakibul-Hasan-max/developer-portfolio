@@ -11,13 +11,8 @@ h1{
 }
 
 .name{
-    color: orange;
+    color: #1111bd;
 }
-.section{
-    display: flex;
-    margin-bottom: 200px;
-}
-
 .cont{
     width: 50%;
     padding-left: 150px;
@@ -25,17 +20,19 @@ h1{
 
 .button{
     text-decoration: none;
-    background-color: orange;
     padding: 10px 40px;
-    border-radius: 5px;
-    background-image: linear-gradient(orange, #c4c41b81);
+    border-radius: 3px;
+    background-image: linear-gradient(#6d81f1, #0a60c2);
     color: white;
     font-weight: 700;
 }
 
 .banner{
-    background-image: url(top-banner.png);
-    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 125px;
+    margin-left: 30px;
 }
 
 h2{
