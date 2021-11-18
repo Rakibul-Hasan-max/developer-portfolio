@@ -11,7 +11,7 @@ h1{
 }
 
 .name{
-    color: #1111bd;
+    color: #0a60c2;
 }
 .cont{
     width: 50%;
@@ -31,7 +31,6 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 125px;
     margin-left: 30px;
 }
 
@@ -40,14 +39,18 @@ h2{
 }
 
 .about{
-    background-image: url(dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 100px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 125px;
 }
-
+.contin{
+    margin-right: 180px;
+}
 .color{
-    color: orange;
+    color: #0a60c2;
 }
 
 .drop{
@@ -80,6 +83,16 @@ h2{
     border-image-slice: 1;
 }
 
-footer p{
+#footer {
+    background-image: linear-gradient(60deg, #174274 0%, #28496d 100%);
+}
+.footer-data {
+    color: white;
     text-align: center;
+    padding-top: 50px;
+}
+.footer-p {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
 }

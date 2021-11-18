@@ -23,18 +23,18 @@
 </head>
 <body>
     <!-- header start -->
-    <header>
+    <header id="home">
         <div class="container navi d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <img src="images/icon.png" width="30" height="30" alt="">
                 <span class="fs-4">RAKIBUL HASAN</span>
             </a>
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </header>
@@ -54,56 +54,33 @@
             </div>
         </section>
         <!-- about section -->
-        <section class="about section">
+        <section id="about" class="conatiner about">
             <div class="cont">
-                <img src="images/pic.png" alt="">
+                <img style="width: 400px; height: 500px; margin-left: 40px;" src="images/pic.jpg" alt="">
             </div>
-            <div class="cont">
+            <div class="contin">
                 <h2>About Me</h2>
-                <h3 class="color">Become a Web Developer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia sit cupiditate, veritatis rerum quae? Voluptatem assumenda totam recusandae, libero dignissimos quibusdam eligendi reprehenderit praesentium ipsam consequuntur.</p>
+                <h5 class="color">MERN Stack Developer.</h5>
+                <p>CSE undergrad student at CQUT in China. I am an enthusiastic software developer, having expertise in web application development. Highly interested in Web development, Software development, Software testing.</p>
+                <p>The creation of this portfolio provided me with a chance to reflect on both my technical skills and my professional skills in several years. As you browse around, I hope that you are able to gain a strong sense about me.</p> <br>
                 <a class="button" target="_blank" href="">Download Resume</a>
             </div>
         </section>
-        <!-- skill sub-section -->
-        <section>
-            <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div> <br> <br>
-        </section>
-        <!-- experience sub-section -->
-        <section class="experience">
-            <h1>Experiences</h1>
-            <div class="section">
-                <div id="gradient" class="cont drop">
-                    <h2>Full Stack Web Developer</h2>
-                    <h3 class="color">2021-Present | Pro Level Developer</h3>
-                    <p>I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
-                </div>
-                <div id="gradient2" class="cont drop" style="padding-right: 150px;">
-                    <h2>Software Developer</h2>
-                    <h3 class="color">2020-2021 | Programming Hero Learner</h3>
-                    <p>They didn't offer me a job. But I made myself as a remove web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
-                </div>
-            </div>
-        </section>
-        <!-- education sub-section -->
-        <!-- service section -->
+        <!-- services section -->
         <!-- portfolio section -->
     </main>
     <!-- main end -->
     <!-- footer start -->
     <footer>
-        <p>Copyright © 2021 Rakibul Hasan, All rights reserved.</p>
+        <section id="footer">
+            <div class="footer-data">
+                <h2>Rakibul Hasan</h2>
+                <p>MERN Stack Developer.</p>
+            </div>
+            <div>
+                <p class="footer-p">Copyright © 2021 Rakibul Hasan, All rights reserved.</p>
+            </div>
+        </section>
     </footer>
     <!-- footer end -->
     <script src="js/bootstrap.bundle.min.js"></script>
