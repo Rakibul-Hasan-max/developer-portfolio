@@ -6,9 +6,6 @@ body{
     font-weight: 600;
     margin-left: 10PX;
 }
-h1{
-    font-size: 50px;
-}
 
 .name{
     color: #0a60c2;
@@ -17,7 +14,6 @@ h1{
     width: 50%;
     padding-left: 150px;
 }
-
 .button{
     text-decoration: none;
     padding: 10px 40px;
@@ -26,16 +22,11 @@ h1{
     color: white;
     font-weight: 700;
 }
-
 .banner{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 30px;
-}
-
-h2{
-    font-size: 40px;
 }
 
 .about{
@@ -53,34 +44,48 @@ h2{
     color: #0a60c2;
 }
 
-.drop{
-    width: 40%;
-    margin-left: 50px;
-    margin-right: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 10px 10px 40px gray;
+.contact {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 150px;
 }
-
-.experience{
-    margin-left: 70px;
-    padding-left: 50px;
-    background-image: url(exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    margin: 0;
+.section-title{
+    text-align: center;
 }
-
-#gradient{
-    border-left: 7px solid;
-    border-image: linear-gradient(red, orange);
-    border-image-slice: 1;
+.contact-items{
+    display: flex;
+    margin-bottom: 100px;
 }
-
-#gradient2 {
-    border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
+.contact-item {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: 0.3s ease box-shadow;
+    gap: 20px;
+}
+.icon{
+    height: 70px;
+}
+.contact-item:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+.contact-info h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+#contact .contact-info h2 {
+    font-size: 15px;
+    line-height: 2rem;
+    font-weight: 400;
 }
 
 #footer {
